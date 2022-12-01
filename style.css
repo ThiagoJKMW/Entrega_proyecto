@@ -1,0 +1,118 @@
+body{ background-color: #FAF0D7;}
+
+
+/* INICIO */
+
+header h1{  color: #8CC0DE;
+justify-content: center;
+display: flex; 
+font-size: 80px; }
+
+header h2{ color: #F4BFBF;
+    justify-content: center;
+    display: flex; 
+    font-size: 30px; }
+
+
+.sitios{ 
+    justify-content: space-around;
+    font-size: 20px;
+    display: flex;
+   color: #6D9886;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sitio1{ color: #6D9886;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.sitio2{color: #6D9886;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+    .sitio3{color: #6D9886;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.repos_1 p{ font-size: 20px;
+
+}
+.repos_1 img{max-width: 450px; 
+    max-height: 400px; }
+
+.repos_1{ display: grid;
+    grid-template-columns: 1fr  ;
+grid-template-rows: 1fr  ;
+grid-template-areas: " p img ";  }
+
+.text2 p{
+    display: flex; 
+    font-size: 20px; }
+
+
+.iga img{max-width: 200px; max-height: 300px;}
+.iga p{ font-size: 15px;}
+
+
+.eag p{font-size: 15px; }
+
+.isehg img{ max-width: 200px; max-height: 300px;}
+.isehg p{font-size: 15px;}
+
+.iga{ display: grid;
+    grid-template-columns: 1fr  ;
+grid-template-rows: 1fr  ;
+grid-template-areas: "img ol "}
+
+.eag{ display: grid;
+    grid-template-columns: 1fr  ;
+grid-template-rows: 1fr  ;
+grid-template-areas: "img ol "}
+
+.isehg{ display: grid;
+    grid-template-columns: 1fr  ;
+grid-template-rows: 1fr  ;
+grid-template-areas: "img ol "}
+
+.encabezadoinst{ font-size: 27px; 
+background-color: #FFD9C0;}
+
+/* INICIO */
+
+/* NUESTROS COCINEROS*/
+
+
+
+.betun{font-size: 30px}
+.betuimg{ display: flex; max-width: 300px; max-height: 400px  }
+.betut{ font-size: 20px; display: flex; }
+
+.cholin{font-size: 30px}
+.choliimg{display: flex; max-width: 300px; max-height: 400px }
+.cholit{ font-size: 20px;}
+
+.isabeln{font-size: 30px}
+.isabelimg{display: flex; max-width: 300px; max-height: 400px }
+.isabelt{ font-size: 20px;}
+
+/* NUESTROS COCINEROS*/
+
+
+/* Recetas*/
+
+.receta{font-size: 40px} 
+.tortaimg{max-width: 500px; max-height: 600px; }
+.ingredientes{font-size: 36px }
+.productos{ font-size: 20px}
+.pasost{font-size: 36px }
+.pasos{font-size: 20px }
+
+
+
+
+/* Recetas*/
+
+/* Recomendaciones*/
+.nombrepast{font-size: 40px}
+.prosap{font-size: 20px }
+.betup{font-size: 20px}
+
+/* Recomendaciones*/
+
+/* Animacion index*/
+
