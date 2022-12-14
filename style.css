@@ -114,5 +114,9 @@ background-color: #FFD9C0;}
 
 /* Recomendaciones*/
 
-/* Animacion index*/
+details{ color: lightpink ;  font-size: 25px
+}
 
+details ul li{ color: black; font-size: 20px;}
+
+.recetat{ font-size: 35px;}
