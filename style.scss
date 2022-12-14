@@ -1,0 +1,117 @@
+body{ background-color: #FAF0D7;}
+
+header h1{  color: #8CC0DE;
+    justify-content: center;
+    display: flex; 
+    font-size: 80px; }
+
+    header h2{ color: #F4BFBF;
+        justify-content: center;
+        display: flex; 
+        font-size: 30px; }
+
+$colorsts: #6D9886 ; 
+
+        .sitios .sitio1 .sitio2 .sitio3{ 
+            justify-content: space-around;
+            font{ size: 20px ;
+                  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+            display: flex;
+            $colorsts: #6D9886 ; }
+
+
+
+           .repos_1 p{ font-size: 20px;
+
+           }
+           .repos_1 img{max-width: 450px; 
+               max-height: 400px; }
+           
+           .repos_1{ display: grid;
+               grid-template-columns: 1fr  ;
+           grid-template-rows: 1fr  ;
+           grid-template-areas: " p img ";  }
+           
+           .text2 p{
+               display: flex; 
+               font-size: 20px; }
+           
+
+
+               $max-widthinst:$max-widthinst 200px ;
+ 
+               $max-heightinst:$max-heightinst 300px; 
+           
+           .iga img{ max-width: $max-widthinst ;
+        max-height:$max-heightinst ; }
+           .iga p{ font-size: 15px;}
+           
+           
+           .eag p{font-size: 15px; }
+           
+           .isehg img{ max-width: $max-widthinst ;
+        max-height:$max-heightinst ;}
+           .isehg p{font-size: 15px;}
+           
+           .iga{ display: grid;
+               grid-template-columns: 1fr  ;
+           grid-template-rows: 1fr  ;
+           grid-template-areas: "img ol "}
+           
+           .eag{ display: grid;
+               grid-template-columns: 1fr  ;
+           grid-template-rows: 1fr  ;
+           grid-template-areas: "img ol "}
+           
+           .isehg{ display: grid;
+               grid-template-columns: 1fr  ;
+           grid-template-rows: 1fr  ;
+           grid-template-areas: "img ol "}
+           
+           .encabezadoinst{ font-size: 27px; 
+           background-color: #FFD9C0;}
+           
+           /* INICIO */
+           
+           /* NUESTROS COCINEROS*/
+           
+           $font-sizenmres:$font-sizenmres 30px; 
+           $max-widthccnrs:$max-widthccnrs 300px; 
+           $max-heightccnrs:$max-heightccnrs 400px; 
+           
+           .betun .cholin .isabeln{font-size: $font-sizenmres}
+           .betuimg .choliimg .isabelimg{ display: flex; max-width: max-widthccnrs ; max-height: $max-heightccnrs  }
+           .betut .cholit .isabelt { font-size: 20px; display: flex; }
+           
+       
+           
+           /* NUESTROS COCINEROS*/
+           
+           
+           /* Recetas*/
+           
+           .receta{font-size: 40px} 
+           .tortaimg{max-width: 500px; max-height: 600px; }
+           .ingredientes{font-size: 36px }
+           .productos{ font-size: 20px}
+           .pasost{font-size: 36px }
+           .pasos{font-size: 20px }
+           
+           
+           
+           
+           /* Recetas*/
+           
+           /* Recomendaciones*/
+           .nombrepast{font-size: 40px}
+           .prosap{font-size: 20px }
+           .betup{font-size: 20px}
+           
+           /* Recomendaciones*/
+           
+           details{ color: lightpink ;  font-size: 25px
+           }
+           
+           details ul li{ color: black; font-size: 20px;}
+           
+           .recetat{ font-size: 35px;} 
